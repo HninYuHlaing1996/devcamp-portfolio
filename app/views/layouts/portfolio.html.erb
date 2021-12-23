@@ -8,12 +8,12 @@
 
     <meta name="keywords" content=<%= @seo_keywords %> />
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "portfolios", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-
+    
     <%= render "shared/nav" %>
 
     <%= yield %>
@@ -24,5 +24,4 @@
 
     <% end %>
   </body>
-  
 </html>
